@@ -2,8 +2,8 @@
   "name": "integration-target-scripts",
   "private": true,
   "scripts": {
-    "lint": "eslint src",
-    "test": "node legacy-test.js"
+    "lint": "eslint .",
+    "test": "npm run lint && node --test"
   },
   "engines": {
     "node": ">=24"
